@@ -18,8 +18,7 @@
  ### 3 length(x) returns the number of elements in an array
 ```r
   
-> x<-matrix(5:10,nrow=3,ncol=4)
->    
+> x<-matrix(5:10,nrow=3,ncol=4) 
 > length(x)
 > [1] 12
 ```
@@ -27,20 +26,17 @@
 ### 4 is.matrix(x) returns T if the object is an array, F if it is not
 ```r
    
-> x<-matrix(2:2,nrow=4,ncol=2)
->    
+> x<-matrix(2:2,nrow=4,ncol=2)  
 > is.matrix(x)
 > [1] TRUE
 ```
 ### 5 nchar(x) number of characters
-```r
->   
+```r  
 > nchar("Data mining")
 > [1] 11
 ```
 ### 6 ceiling(x) Returns the first integer greater than x 
-```r
->      
+```r     
 > ceiling(2.2)
 > [1] 3
 ```
@@ -92,15 +88,12 @@
 ```
 
 ### 14 tan(x) Tangente
-```r
->      
+```r    
 > tan(13) 
-> [1] 0.4630211
-> 
+> [1] 0.4630211 
 ```
 ### 14 tan(x) Tangente
-```r
->      
+```r  
 > tan(13) 
 > [1] 0.4630211
 ```
@@ -109,17 +102,14 @@
 >  x = c(5,9,7,100,25554,3,7,8,0.5,0.1,6)
 >  sort(x)
 >  [1]     0.1     0.5     3.0     5.0     6.0     7.0     7.0     8.0     9.0   100.0 25554.0
-> 
 ```
 ### 16 round(x,n) round n digits
 ```r
 > round(5.68744122456, 4)
 > [1] 5.6874
-> 
 ```
 ### 17 log(x) Natural logarithm of x
-```r
->      
+```r    
 > log(12.7) 
 > [1] 2.541602
 ```
@@ -134,8 +124,7 @@
 > [1] 442413.4
 ```
 ### 20 range(x) Returns the maximum and minimum
-```r
->      
+```r   
 > range(5 , 2 ,6 , 4 ,8 ,1 )
 > [1] 1 8
 ```

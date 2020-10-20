@@ -32,7 +32,7 @@
   
          for(i in rnorm(Numbers))
            {
-             if(i > -1 & i< 1)
+             if(rnorm(i) > -1 & rnorm(i)< 1)
              {
                counter = counter+1
              }

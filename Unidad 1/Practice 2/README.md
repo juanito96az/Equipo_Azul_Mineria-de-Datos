@@ -92,12 +92,8 @@
 > tan(13) 
 > [1] 0.4630211 
 ```
-### 14 tan(x) Tangente
-```r  
-> tan(13) 
-> [1] 0.4630211
-```
-### 15 Order the components of x
+
+### 15 sort(x) Order the components of x
 ```r
 >  x = c(5,9,7,100,25554,3,7,8,0.5,0.1,6)
 >  sort(x)

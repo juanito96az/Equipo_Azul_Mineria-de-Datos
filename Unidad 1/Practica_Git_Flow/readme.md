@@ -5,4 +5,8 @@ Step-2.Once created, we go to the configuration tab and check if we have created
 ![two image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso2.png)
 
 Step 3. We create a repository.
-![three image]()
+![three image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso3.png)
+
+
+Step 4. We leave it in the public option and add a "readme" by default.
+![four image]()

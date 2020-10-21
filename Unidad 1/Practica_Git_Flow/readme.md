@@ -33,6 +33,25 @@ Then with the git branch command it shows us which branch we are in.
 Step-9. With the git status command it also shows us where we are in the branch and separately it tells us if there is something to commit to it.
 
 Then we modify the current name of the branch "front" by "development" with the following command shown in the terminal (git branch -m front development).
-![ten image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso12.png)
+![nine image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso12.png)
+
+Step 10.- After installing the "sublime" text editor since the Ubuntu system did not have it downloaded, then I proceeded to open it, modify a branch in its readme, save it and then I made a commit on the "development" branch.
+![ten image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso14.png)
+
+Step-11. I had to specify who it was with my email in order to commit it.
+![eleven image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso15.png)
+
+
+Step-12. We push the branch created "development"
+![twelve image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso16.png)
+
+Step-13. We go where we go to the hyperlink that github throws us and as we can see, our “development branch is already created in the practica_de_github repository.
+![thirteen image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso17.png)
+
+
+Step-14. We check that the "development" node is already in the github.
+![fourteen image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso19.png)
+
+
 
 

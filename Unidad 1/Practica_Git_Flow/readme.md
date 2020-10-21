@@ -50,7 +50,52 @@ Step-13. We go where we go to the hyperlink that github throws us and as we can 
 
 
 Step-14. We check that the "development" node is already in the github.
-![fourteen image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso19.png)
+![fourteen image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso18.png)
+
+
+Step-15. Then we make a modification in the development branch in the readme.md document and we commit again and then push.
+![fifteen image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso19.png)
+
+Step-16. we show the changes we made in the "development" branch already on the github page inside the repository.
+![sisxteen image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso21.png)
+
+
+Step-17. We also created a page as a test.
+![seventeen image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso22.png)
+
+
+Step-18. And this is what we create inside the index.
+![eighteen image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso23.png)
+
+Step-19. We now create the "features" branch.
+![nineteen image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso24.png)
+
+
+Step-20. Then we change to the branch that we just created which is "features".
+![twenty image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso25.png)
+
+
+Step-21. Then through the sublime program we open the features document readme.md and do the following.
+![twenty one image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso26.png)
+
+
+Step-22. Then we save and commit to the "features" branch.
+![twenty two image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso27.png)
+
+
+Step-23. Then we do push. ("Git push origin features").
+![twenty three image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso30.png)
+
+Step-24. Using the git branch command, it shows us the branches that we have created, which we can see are 3 in total, the default and the two that we create ourselves, which are "development" and "features".
+![twenty four image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso31.png)
+
+
+Step-25. We check that it is in the repository on the github page.
+![twenty five image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso32.png)
+
+
+Step-26. We checked what we did in the features branch to see that the commit and push in the terminal was done correctly.
+![twenty six image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso33.png)
 
 
 

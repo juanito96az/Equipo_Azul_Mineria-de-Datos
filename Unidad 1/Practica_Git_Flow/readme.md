@@ -23,15 +23,12 @@ Step-7. We move that folder for convenience to the Documents folder since more f
 ![seven image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso10.png)
 
 Step-8. Then we enter the documents folder and then the repository where we will find a document called "readme" in which we will be working.
-
 Then we use the checkout -b command to create and switch branches at the time called “front”.
-
 Then with the git branch command it shows us which branch we are in.
 ![eight image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso11.png)
 
 
 Step-9. With the git status command it also shows us where we are in the branch and separately it tells us if there is something to commit to it.
-
 Then we modify the current name of the branch "front" by "development" with the following command shown in the terminal (git branch -m front development).
 ![nine image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso12.png)
 

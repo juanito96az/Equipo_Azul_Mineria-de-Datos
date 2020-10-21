@@ -95,6 +95,9 @@ Step-26. We checked what we did in the features branch to see that the commit an
 ![twenty six image](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica_Git_Flow/paso33.png)
 
 
+Conclusion: As we can see, working in the terminal is apparently more tedious, but once you grab the thread you will be faster than doing it through an interface!
+
+
 
 
 

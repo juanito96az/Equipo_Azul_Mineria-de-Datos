@@ -6,7 +6,7 @@
 >> * [PRACTICE 2 ](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practice%202/README.md)
 >> * [PRACTICE 3 ](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/tree/evidence/Unidad%201/Practice%203)
 >> * [Task 1](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/tree/evidence/Unidad%201/Task_1)
->> * [evaluative practice 1](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/README.md)
+>> * [Evaluative practice 1](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/README.md)
 
 
 

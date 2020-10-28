@@ -121,3 +121,5 @@ MergeContries2013FDd <- MergeContries2013F[with(MergeContries2013F, order(-Merge
  
  
  ## Result
+ 
+ ![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/Diagrama%20de%20dispesion%201960.png "Optional Title")

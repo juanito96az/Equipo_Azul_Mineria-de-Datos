@@ -122,4 +122,7 @@ MergeContries2013FDd <- MergeContries2013F[with(MergeContries2013F, order(-Merge
  
  ## Result
  
- ![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/Diagrama%20de%20dispesion%201960.png "Optional Title")
+ ![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/Diagrama%20de%20dispesion%201960.png "1960")
+ ![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/recorte%201960.png "1960")
+  ![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/Diagrama%20de%20disperison2013.png "1960")
+ ![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/recorte%202013.png "1960")

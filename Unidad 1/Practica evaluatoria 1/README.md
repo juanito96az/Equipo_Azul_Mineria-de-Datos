@@ -102,6 +102,8 @@ qplot(data=MergeContries1960F,
       ylab="Life expectancy",
       
       )
+      
+      MergeContries1960FDdddd <- MergeContries1960F[with(MergeContries1960F, order(-MergeContries1960F$Life_Expectancy1960)), ]
 
 # ------------ creating the scatter plot for 2013---------------
 
@@ -114,5 +116,7 @@ qplot(data=MergeContries2013F,
       xlab= "Fertility Rate",
       ylab="Life expectancy",
 )
+
+MergeContries2013FDd <- MergeContries2013F[with(MergeContries2013F, order(-MergeContriesF$Life_Expectancy2013)), ]
 ```
  

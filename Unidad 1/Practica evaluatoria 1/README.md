@@ -119,3 +119,5 @@ qplot(data=MergeContries2013F,
 MergeContries2013FDd <- MergeContries2013F[with(MergeContries2013F, order(-MergeContriesF$Life_Expectancy2013)), ]
 ```
  
+ 
+ ## Result

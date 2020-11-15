@@ -43,7 +43,7 @@ ggplot(movies, aes(x=CriticRating, y=AudienceRating,
                    color=Genre, size=BudgetMillions)) + 
   geom_jitter()
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/Diagrama%20de%20dispesion%201960.png "1960")
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%201.png)
 
 
 ### 2) geom_hex()
@@ -52,7 +52,7 @@ ggplot(movies, aes(x=CriticRating, y=AudienceRating,
                    color=Genre, size=BudgetMillions)) + 	
   geom_hex()
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/Diagrama%20de%20dispesion%201960.png "1960")
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/Grafica%202.png)
 
 
 ### 3) geom_polygon()
@@ -61,7 +61,7 @@ ggplot(movies, aes(x=CriticRating, y=AudienceRating,
                    color=Genre, size=BudgetMillions)) + 	
   geom_polygon()
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/Diagrama%20de%20dispesion%201960.png "1960")
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%203.png)
 
 
 ### 4)  geom_bin2d()
@@ -71,7 +71,7 @@ ggplot(movies, aes(x=CriticRating, y=AudienceRating,
   geom_bin2d()
 
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/Diagrama%20de%20dispesion%201960.png "1960")
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%204.png)
 
 
 ### 5) 	geom_quantile()
@@ -80,5 +80,5 @@ ggplot(movies, aes(x=CriticRating, y=AudienceRating,
                    color=Genre, size=BudgetMillions)) + 	
   geom_quantile()
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/Diagrama%20de%20dispesion%201960.png "1960")
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%205.png)
 

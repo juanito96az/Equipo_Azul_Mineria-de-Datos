@@ -9,4 +9,7 @@
 >> * [Evaluative practice 1](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practica%20evaluatoria%201/README.md)
 
 
+ >## UNIT 2
+>> * [PRACTICE 1 ](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practice%201/README.md)
+
 

@@ -10,6 +10,6 @@
 
 
  >## UNIT 2
->> * [PRACTICE 1 ](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%201/Practice%201/README.md)
+>> * [PRACTICE 1 ](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/README.md)
 
 

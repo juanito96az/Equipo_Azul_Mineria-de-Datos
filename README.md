@@ -14,4 +14,12 @@
 
 
 
+ >## UNIT 2
+>> * [PRACTICE 1 ](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/README.md)
+>> * [Evaluative practice 2 ](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/tree/evidence/Unidad%202/Evaluative%20practice%202)
+
+>## UNIT 3
+>> * [ ]()
+>> * [Evaluative practice 3 ]()
+
 

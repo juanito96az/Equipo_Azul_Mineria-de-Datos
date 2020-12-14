@@ -1,10 +1,7 @@
 # Practice 3
 
 
-### Implement the Naive Bayes classification model with the dataset
-### Social_Network_Ads.csv and using the e1071 library with the naiveBayes () function.
-### Once the classifier is obtained, do the data visualization analysis
-### correspondent.
+### Implement the Naive Bayes classification model with the dataset Social_Network_Ads.csv and using the e1071 library with the naiveBayes () function. Once the classifier is obtained, do the data visualization analysis correspondent.
 
 ```r
 # we establish our workplace

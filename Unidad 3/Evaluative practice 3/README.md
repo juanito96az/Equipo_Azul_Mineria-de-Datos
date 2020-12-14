@@ -88,3 +88,12 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ````
 
 ### Naive Bayes is one of the simplest and most powerful algorithms for classification based on the Bayes theorem with an assumption of independence between the predictors, it assumes that the effect of a particular characteristic in a class is independent of other characteristics
+
+### Grafic 1
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/Evaluative%20practice%203/Grafic%201.png)
+
+
+### Grafic 2
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/Evaluative%20practice%203/Grafic%202.png)
+
+

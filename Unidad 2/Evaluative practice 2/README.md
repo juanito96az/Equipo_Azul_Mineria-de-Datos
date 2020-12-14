@@ -1,4 +1,4 @@
-# Practice 1
+# Evaluative practice 2
 
 
 ```r
@@ -64,4 +64,7 @@ Graphic + geom_boxplot()
 Graphic + geom_jitter(aes( size = BudgetMill, color=Studio )) + geom_boxplot(aes(),alpha=0.8, outlier.colour = NA )  
 ````
 
-### 
+### graphic
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Evaluative%20practice%202/grafica.png)
+
+

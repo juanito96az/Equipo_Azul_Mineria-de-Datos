@@ -14,7 +14,8 @@
 >> * [Evaluative practice 2 ](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/tree/evidence/Unidad%202/Evaluative%20practice%202)
 
 >## UNIT 3
->> * [ ]()
+>> * [Decision Tree Classification](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/DesicionThree/README.md)
+>> * [K-Nearest Neighbors](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/KNN/README.md)
 >> * [Evaluative practice 3 ](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/tree/evidence/Unidad%203/Evaluative%20practice%203)
 
 

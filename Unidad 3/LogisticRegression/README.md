@@ -92,7 +92,7 @@ ggplot(training_set, aes(x=EstimatedSalary, y=Purchased)) + geom_point() +
 
 
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%205.png)
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/LogisticRegression/LogisticRegresion1.png)
 
 ### graph of training data Age, Purchased
 ```r
@@ -100,7 +100,7 @@ ggplot(training_set, aes(x=EstimatedSalary, y=Purchased)) + geom_point() +
   stat_smooth(method="glm", method.args=list(family="binomial"), se=FALSE)
 
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%205.png)
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/LogisticRegression/LogisticRegression2.png)
 
 ### graph of the test data EstimatedSalary, Purchased
 ```r
@@ -108,7 +108,7 @@ ggplot(training_set, aes(x=EstimatedSalary, y=Purchased)) + geom_point() +
   stat_smooth(method="glm", method.args=list(family="binomial"), se=FALSE)
 
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%205.png)
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/LogisticRegression/LogisticRegression3.png)
 
 ### graph of test data Age, Purchased
 ```r
@@ -118,7 +118,7 @@ ggplot(test_set, aes(x=Age, y=Purchased)) + geom_point() +
 
 
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%205.png)
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/LogisticRegression/LogisticRegression%204.png)
 
 
 
@@ -146,7 +146,7 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 
 ### In the graph we can see that there are points and the color red and green, on the y axis we have the estimate of wages and on the other we have the age for the data to be correct they must be in the area of ​​the same color, that is, the red ones with the reds and the greens with the greens otherwise they would be erroneous data, we can see that in general most of the data is in its corresponding area although we have a small margin of error
 
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%205.png)
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/LogisticRegression/LogisticRegression5.png)
 
 
 ### We carry out the coding to make the diagram of the results of the test set
@@ -169,5 +169,5 @@ points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
 ```
 
 
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%205.png)
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/LogisticRegression/LogisticRegression6.png)
 

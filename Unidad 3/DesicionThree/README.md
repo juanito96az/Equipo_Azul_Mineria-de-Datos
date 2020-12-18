@@ -1,84 +1,128 @@
-# Practice 1
+# Decision Tree Classification
 
-## Investigate 5 geometry functions that can be added to the ggplot2 () function
+### In this practice we will explain some observations of the Decision Tree Classification coding
 
 
-### we must first import the data
-
-```r
+### First we must assign our workplace, with the function getwd () we will verify the position of our directory, With the function setwd ("") we assign our workplace
+```r 
 getwd()
-setwd("D:/Trabajos/Mineria de datos/practicas unidad 2/Practica 1")
+setwd("C:/Users/Rick/Documents/GitHub/DataMining/MachineLearning/DesicionThree")
 getwd()
-
-movies <- read.csv("P2-Movie-Ratings.csv")
 ```
 
-### we rename the columns to make them look more aesthetic
+
+### Once our workplace is established, the next thing is to import the data, we are assigning the information from the csv file called social_Network_Ads.csv to the variable called dataset.
 ```r
-colnames(movies) <- c("Film", "Genre", "CriticRating", "AudienceRating", "BudgetMillions", "Year")
-head(movies)
+dataset = read.csv('Social_Network_Ads.csv')
 ```
-### Convert numeric data to a factor
+
+
+### In the next line of code we are declaring that we will only work with columns 3 to 5 present in the dataset.
 ```r
-factor(movies$Year)
-movies$Year <- factor(movies$Year)
+cdataset = dataset[3:5]
 ```
 
-### We call the library that we are going to use
+###  We encode the destination function as a factor
 ```r
-library(ggplot2)
+dataset$Purchased = factor(dataset$Purchased, levels = c(0, 1))
 ```
-###  we create our scatter plot with the ggplot function adding color and size
+
+### We install and import the caTtools library
+```r
+install.packages('caTools')
+library(caTools)
+```
+### We set our seed of randomness
 
 ```r
-ggplot(movies, aes(x=CriticRating, y=AudienceRating, 
-                   color=Genre, size=BudgetMillions)
+set.seed(123)
 ```
 
-### add geometry
-
-### 1) geom_Jitter()
+### We set our training data and our test data separate our dataset)
 ```r
-ggplot(movies, aes(x=CriticRating, y=AudienceRating, 
-                   color=Genre, size=BudgetMillions)) + 
-  geom_jitter()
+split = sample.split(dataset$Purchased, SplitRatio = 0.75)
+training_set = subset(dataset, split == TRUE)
+test_set = subset(dataset, split == FALSE)
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%201.png)
 
+### We normalize our data
 
-### 2) geom_hex()
 ```r
-ggplot(movies, aes(x=CriticRating, y=AudienceRating, 
-                   color=Genre, size=BudgetMillions)) + 	
-  geom_hex()
+training_set[-3] = scale(training_set[-3])
+test_set[-3] = scale(test_set[-3])
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/Grafica%202.png)
 
-
-### 3) geom_polygon()
+### We install and import the rpart library
 ```r
-ggplot(movies, aes(x=CriticRating, y=AudienceRating, 
-                   color=Genre, size=BudgetMillions)) + 	
-  geom_polygon()
+install.packages('rpart')
+library(rpart)
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%203.png)
 
-
-### 4)  geom_bin2d()
+### We adopt the decision tree classification to the training set
 ```r
-ggplot(movies, aes(x=CriticRating, y=AudienceRating, 
-                   color=Genre, size=BudgetMillions)) + 	
-  geom_bin2d()
+classifier = rpart(formula = Purchased ~ .,
+                   data = training_set)
 
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%204.png)
 
 
-### 5) 	geom_quantile()
+
+
+### We make the prediction of the test data set
 ```r
-ggplot(movies, aes(x=CriticRating, y=AudienceRating, 
-                   color=Genre, size=BudgetMillions)) + 	
-  geom_quantile()
+y_pred = predict(classifier, newdata = test_set[-3], type = 'class')
+y_pred
 ```
+
+### We create the confusion matrix
+```r
+  cm = table(test_set[, 3], y_pred)
+
+```
+
+### We visualize the results of the training tanos, for this we use the elemenStatLearn library that helps us to color our graph
+```r
+  library(ElemStatLearn)
+set = training_set
+X1 = seq(min(set[, 1]) - 1, max(set[, 1]) + 1, by = 0.01)
+X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 0.01)
+grid_set = expand.grid(X1, X2)
+colnames(grid_set) = c('Age', 'EstimatedSalary')
+y_grid = predict(classifier, newdata = grid_set, type = 'class')
+plot(set[, -3],
+     main = 'Decision Tree Classification (Training set)',
+     xlab = 'Age', ylab = 'Estimated Salary',
+     xlim = range(X1), ylim = range(X2))
+contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
+points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
+points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
+
+
+```
+
+### In the graph we can see that there are points and the color red and green, on the y axis we have the estimate of wages and on the other we have the age for the data to be correct they must be in the area of ​​the same color, that is, the red ones with the reds and the greens with the greens otherwise they would be erroneous data, we can see that in general most of the data is in its corresponding area although we have a small margin of error
+
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%205.png)
+
+
+### We carry out the coding to make the diagram of the results of the test set
+```r
+  library(ElemStatLearn)
+set = test_set
+X1 = seq(min(set[, 1]) - 1, max(set[, 1]) + 1, by = 0.01)
+X2 = seq(min(set[, 2]) - 1, max(set[, 2]) + 1, by = 0.01)
+grid_set = expand.grid(X1, X2)
+colnames(grid_set) = c('Age', 'EstimatedSalary')
+y_grid = predict(classifier, newdata = grid_set, type = 'class')
+plot(set[, -3], main = 'Decision Tree Classification (Test set)',
+     xlab = 'Age', ylab = 'Estimated Salary',
+     xlim = range(X1), ylim = range(X2))
+contour(X1, X2, matrix(as.numeric(y_grid), length(X1), length(X2)), add = TRUE)
+points(grid_set, pch = '.', col = ifelse(y_grid == 1, 'springgreen3', 'tomato'))
+points(set, pch = 21, bg = ifelse(set[, 3] == 1, 'green4', 'red3'))
+
+```
+
+
 ![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%202/Practice%201/grafica%205.png)
 

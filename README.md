@@ -19,5 +19,6 @@
 >> * [Logistic Regression](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/LogisticRegression/README.md)
 >> * [MultipleLinear Regression](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/MultipleLinearRegression/README.md)
 >> * [Random Forest](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/RandomForest/README.md)
+>> * [Simple Linear regression](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/SimpleLinearRegression/README.md)
 >> * [Evaluative practice 3 ](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/tree/evidence/Unidad%203/Evaluative%20practice%203)
 

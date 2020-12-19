@@ -96,7 +96,7 @@ ggplot() +
 ```
 
 
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/LogisticRegression/LogisticRegression5.png)
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/SimpleLinearRegression/Simple%20Linear%201.png)
 
 
 ### Viewing Test Set Results
@@ -113,5 +113,5 @@ ggplot() +
 ```
 
 
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/LogisticRegression/LogisticRegression6.png)
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/SimpleLinearRegression/Simple%20Linear%202.png)
 

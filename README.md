@@ -20,5 +20,6 @@
 >> * [MultipleLinear Regression](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/MultipleLinearRegression/README.md)
 >> * [Random Forest](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/RandomForest/README.md)
 >> * [Simple Linear regression](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/SimpleLinearRegression/README.md)
+>> * [Suport vector machine](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/Support%20Verctor%20Machine/README.md)
 >> * [Evaluative practice 3 ](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/tree/evidence/Unidad%203/Evaluative%20practice%203)
 

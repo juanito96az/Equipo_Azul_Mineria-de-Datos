@@ -25,7 +25,7 @@ plot(1:10,
      xlab = 'Number of clusters',
      ylab = 'WCSS')
 ```
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/KNN/Knn2.png)
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%204/evaluative%20practice/g1.png)
 
 
 ### set our seed of randomness
@@ -62,5 +62,5 @@ clusplot(dataset,
          ylab = 'length')
 ```
 
-![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%203/KNN/Knn2.png)
+![Alt text](https://github.com/juanito96az/Equipo_Azul_Mineria-de-Datos/blob/evidence/Unidad%204/evaluative%20practice/g2.png)
 

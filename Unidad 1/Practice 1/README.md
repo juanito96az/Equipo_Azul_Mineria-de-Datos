@@ -26,7 +26,7 @@ Check that Mean(Xn)->E(X) as you rerun your script while increasing N
 ### 3. loop for(i in rnorm(size))
 ### 4. Check if the iterated variable falls
 ### 5. Increase counter if the condition is true
-```r
+```scala
 > for(i in rnorm(Numbers))
 +            {
 +              if(i > -1 & i< 1)
